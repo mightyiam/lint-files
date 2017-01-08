@@ -1,0 +1,41 @@
+{
+  "name": "lint-files",
+  "version": "0.0.0",
+  "description": "Convenience wrapper for ESLint’s CLIEngine.prototype.executeOnFiles()",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "standard",
+    "unit": "ava",
+    "test": "npm run lint && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyiam/lint-files.git"
+  },
+  "keywords": [
+    "eslint",
+    "cliengine",
+    "cli-engine",
+    "executeOnFiles",
+    "execute-on-files",
+    "wrapper",
+    "pure",
+    "functional"
+  ],
+  "author": "Shahar Or <mightyiampresence@gmail.com> (mightyiam)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightyiam/lint-files/issues"
+  },
+  "homepage": "https://github.com/mightyiam/lint-files#readme",
+  "dependencies": {
+    "eslint": "^3.13.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "mock-require": "^2.0.1",
+    "require-uncached": "^1.0.3",
+    "simple-spy": "^2.1.0",
+    "standard": "^8.6.0"
+  }
+}
