@@ -1,6 +1,6 @@
 {
   "name": "lint-files",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convenience wrapper for ESLint’s CLIEngine.prototype.executeOnFiles()",
   "main": "lib/index.js",
   "scripts": {
